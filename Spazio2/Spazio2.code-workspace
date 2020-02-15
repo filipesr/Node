@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "server"
+		},
+		{
+			"path": "web"
+		},
+		{
+			"path": "web-bootstrap"
+		},
+		{
+			"path": "admin"
+		}
+	]
+}

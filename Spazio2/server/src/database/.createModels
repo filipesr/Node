@@ -1,0 +1,8 @@
+npx sequelize-cli model:generate --force --name Collaborator --attributes name:string,cpf:string,passwordHash:string,birth:date,phone:string,avatar:string
+npx sequelize-cli model:generate --force --name ContactAttempt --attributes dateAttempt:date,answered:boolean,name:string,collaborator:integer,parent:integer
+npx sequelize-cli model:generate --force --name Event --attributes name:string,dateEvent:date,duration:integer,capacity:integer
+npx sequelize-cli model:generate --force --name Incident --attributes name:string,severity:string,response:string
+npx sequelize-cli model:generate --force --name IncidentKid --attributes dateIncident:date,comment:string,photo:string,collaborator:integer,kid:integer,incident:integer
+npx sequelize-cli model:generate --force --name Kid --attributes name:string,birth:date,avatar:string,restriction:boolean,gender:string,collaborator:integer
+npx sequelize-cli model:generate --force --name Parent --attributes name:string,phone:string,phone2:string,cpf:string,avatar:string,termAccepted:boolean,collaborator:integer
+npx sequelize-cli model:generate --force --name Visit --attributes bracelet:string,comment:string,timeIn:time,timeOut:time,collaborator:integer,parent:integer,kid:integer,event:integer

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/pure-css/pure-min.css" />
+    <title>Spazio Bambini</title>
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css" />
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/layouts/side-menu.css" />
+    <!--<![endif]-->
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="layout">
+      <!-- Menu toggle -->
+      <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+      </a>
+
+      <div id="menu">
+        <div class="pure-menu">
+          <a class="pure-menu-heading" href="/dash">Spazio Bambini</a>
+
+          <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+              <a href="/parent" class="pure-menu-link">Responsáveis</a>
+            </li>
+
+            <li class="pure-menu-item">
+              <a href="/" class="pure-menu-link">Visitantes</a>
+            </li>
+
+            <li class="pure-menu-item">
+              <a href="/wait" class="pure-menu-link">Fila de espera</a>
+            </li>
+
+            <li class="pure-menu-item">
+              <a href="/collaborator" class="pure-menu-link">Colaboradores</a>
+            </li>
+
+            <li class="pure-menu-item">
+              <a href="/past" class="pure-menu-link">Já passaram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="main"></div>
+    </div>
+
+    <script src="js/ui.js"></script>
+  </body>
+</html>

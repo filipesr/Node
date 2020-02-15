@@ -1,0 +1,110 @@
+.page-content {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+section#post-list {
+  margin: 0 auto;
+  padding: 0 0.5em;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+
+  align-items: center;
+  justify-content: center;
+}
+
+section#post-list article {
+  position: relative;
+
+  margin: 0.3em !important;
+
+  border-radius: 1.5em !important;
+
+  width: 100% !important;
+  max-width: 12em !important;
+  max-height: 15em !important;
+  height: 15em !important;
+  overflow: hidden;
+}
+
+section#post-list article.boy {
+  border: 3px solid #000088;
+}
+
+section#post-list article {
+  border: 3px solid #008800;
+  position: relative;
+}
+
+section#post-list article.girl {
+  border: 3px solid #880000;
+}
+
+section#post-list article header {
+  background: #aaffaaaa;
+  color: #008800 !important;
+}
+
+section#post-list article.boy header {
+  background: #aaaaffaa;
+  color: #000088 !important;
+}
+
+section#post-list article.girl header {
+  background: #ffaaaaaa;
+  color: #880000 !important;
+}
+
+section#post-list article header {
+  position: absolute;
+  padding: 0.3em 0.5em 0 0.5em !important;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+section#post-list article header .user-info {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 8.5em;
+}
+
+section#post-list article header > span {
+  position: absolute;
+
+  right: 0.5em;
+  font-size: 1.3em !important;
+  font-weight: bold;
+}
+
+section#post-list article > img {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section#post-list article footer .actions {
+  position: absolute;
+  bottom: 0em;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#post-list article footer .actions img {
+  height: 32px;
+  margin: 0 5px;
+}

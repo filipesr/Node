@@ -1,0 +1,44 @@
+header#main-header {
+  background: #600;
+  height: 56px;
+}
+
+header#main-header .header-content {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  height: 54px;
+  padding: 0 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header#main-header .header-content a {
+  width: 19%;
+  height: 50px;
+  position: relative;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  background: #007;
+  border: 4px solid #007;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+header#main-header .header-content a span {
+  display: block;
+  top: 25px;
+  background: #007;
+  z-index: 999;
+  transform: translateY(-8px);
+  border-radius: 0 0 15px 15px;
+}
+
+header#main-header .header-content a img {
+  display: inline-block;
+  z-index: 998;
+}

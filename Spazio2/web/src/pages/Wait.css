@@ -1,0 +1,59 @@
+section#wait-list {
+  margin: 4px auto;
+  padding: 0 5px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+
+  align-items: center;
+  justify-content: center;
+}
+
+section#wait-list article {
+  margin: 5px;
+  margin-bottom: 5px;
+
+  width: 100% !important;
+  max-width: 16rem;
+  max-height: 267px;
+}
+
+section#wait-list article header {
+  padding: 2px;
+  border-radius: 5px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 3px solid;
+}
+
+section#wait-list article.boy header {
+  background: #aaf;
+  border-color: #000088;
+}
+
+section#wait-list article.girl header {
+  background: #faa;
+  border-color: #880000;
+}
+
+section#wait-list article header span {
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 15rem !important;
+  font-size: 1.3  rem;
+}
+
+section#wait-list article header div {
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 15rem !important;
+}
+
+section#wait-list article header img{
+  height: 22px;
+}

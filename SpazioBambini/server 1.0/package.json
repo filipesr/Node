@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Servidor de apoio para o sistema Spazio Bambini",
+  "keywords": [
+    "Spazio",
+    "Bambini",
+    "FSRezende.com.br"
+  ],
+  "author": "Filipe Rezende",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "autoclean": "^1.0.2",
+    "bcrypt-nodejs": "^0.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "multer": "^1.4.2",
+    "routes": "^2.1.0",
+    "sequelize": "^5.15.0",
+    "sharp": "^0.23.0",
+    "socket.io-server": "^1.0.0-b",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.19.1",
+    "sequelize-cli": "^5.5.0"
+  }
+}

@@ -1,0 +1,104 @@
+{
+    "landing": {
+        "firstName": "Filipe",
+        "lastName": "Rezende",
+        "phoneNumber": "+55 28 99909-4076",
+        "bio": "Apaixonado por Jesus e por minha família, programador por afinidade e músico por insistência.",
+        "email": "contato@fsrezende.com.br",
+        "linkedin": "fsrezende",
+        "github": "filipesr"
+    },
+    "experience": [
+        {
+            "position": "Programador de Processos",
+            "organization": "C2TI",
+            "aboutWork": "Desenvolvimento de soluções para atendimento do cliente interno. Java, JSF, C#, Asp.NET e MySQL",
+            "fromDate": "fev/2019",
+            "toDate": "-"
+        },
+        {
+            "position": "Maître",
+            "organization": "Pousada Pedra Azul",
+            "aboutWork": "Coordenação da equipe de garçons do restaurante da pousada Pedra Azul",
+            "fromDate": "jun/2018",
+            "toDate": "nov/2018"
+        },
+        {
+            "position": "Sócio proprietário",
+            "organization": "ilBurger - Hamburgueria Artesanal",
+            "aboutWork": "Gestão financeira e organizacional, produção dos lanches e entrega",
+            "fromDate": "fev/2016",
+            "toDate": "ago/2017"
+        },
+        {
+            "position": "Desenvolvimento de App's e sistemas",
+            "organization": "Diversas",
+            "aboutWork": "Desenvolvimento de soluções mobile e pequenos sistemas para diversas empresas",
+            "fromDate": "jan/2014",
+            "toDate": "-"
+        },
+        {
+            "position": "Professor de Matemática, Música e Informática",
+            "organization": "Diversas",
+            "aboutWork": "Aulas particulares em casa, em projetos e no SENAC",
+            "fromDate": "jan/2000",
+            "toDate": "-"
+        },
+        {
+            "position": "Outras",
+            "organization": "Outras",
+            "aboutWork": "Demais trabalhos e funções exercidas podem ser conversadas numa entrevista",
+            "fromDate": "-",
+            "toDate": "-"
+        }
+    ],
+    "education": [
+        {
+            "university": "UFES",
+            "degree": "Nestrado",
+            "fromDate": "2014",
+            "toDate": "2016"
+        },
+        {
+            "university": "Instituto Cultus",
+            "degree": "Pós-graduação em Gestão de TI",
+            "fromDate": "2019",
+            "toDate": "-"
+        },
+        {
+            "university": "IFES",
+            "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+            "fromDate": "2006",
+            "toDate": "2010"
+        }
+    ],
+    "skills": [
+        { "name": "C#" },
+        { "name": "Java" },
+        { "name": ".NET" },
+        { "name": "JSF" },
+        { "name": "Delphi" },
+        { "name": "SQL" },
+        { "name": "Android" },
+        { "name": "MySQL" },
+        { "name": "SQL Server" },
+        { "name": "Oracle" },
+        { "name": "HTML" },
+        { "name": "JavaScript" },
+        { "name": "JQuery" },
+        { "name": "PHP" },
+        { "name": "Violão" },
+        { "name": "Teclado" },
+        { "name": "Contra-baixo" },
+        { "name": "Edição de imagems - básica" },
+        { "name": "Edição de vídeo - básico" }
+    ],
+    "interests": {
+        "paragraphOne": "Gosto de aprender e resolver problemas",
+        "paragraphTwo": "Amo minha família e o que faço"
+    },
+    "awards": [
+        { "awardDetail": "." },
+        { "awardDetail": ".." }
+    ]
+}
